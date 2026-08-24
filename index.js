@@ -14,9 +14,13 @@ const { addNumbers, subtract, name } = mathOperationsM2;
 
 console.log(addNumbers(12, 12), name, subtract(23, 4));
 
+// finding the filename 
+
 const path = require("path");
 
 console.log(path.parse(__filename));
+
+//  joining the path
 
 const profilePath = path.join(__dirname, "uploads");
 
